@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-image: url(../img/обоисайта.jpg)no-repeat; */
+    background-image: url(../img/обоисайта.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+.menu{
+    display: flex;
+    justify-content: right;
+}
+.dropdown-menu[data-bs-popper]{
+    left: -86px !important; 
+}
+.exits{
+    width: 40px;
+    height: 40px;
+}
+.banner{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+h3{
+    color: #fff;
+    position: absolute;
+    left: 215px;
+    bottom: 196px;
+    font-size: 32px;
+    display: flex;
+    justify-content: left;
+    width: 700px;
+}
+p.tex{
+    color: #fff;
+    position: absolute;
+    left: 198px;
+    bottom: 135px;
+    font-size: 32px;
+    display: flex;
+    justify-content: left;
+    width: 700px; 
+}
+p.tixt{
+    color: #fff;
+    position: absolute;
+    left: 151px;
+    bottom: 95px;
+    font-size: 32px;
+    display: flex;
+    justify-content: left;
+    width: 700px; 
+}
+h5{
+    text-align: left;
+}
+h4{
+    color: #A97F7C !important;
+}
+.line {
+    border-bottom: 1px solid rgb(0, 0, 0); /* Параметры линии */
+    width: 1400px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+div.row{
+    text-align: justify;
+}
+.general{
+    margin-left: 149px;
+}
+img.icon{
+    width: 35px;
+    height: 30px;
+}
+div.name{
+    color: #50503F;
+}
+div.inf{
+    font-weight: 600;
+}
+footer{
+    background-color: #35352D;
+}
